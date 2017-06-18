@@ -13,6 +13,7 @@
 		4833881A1EF6959F00609AA2 /* Todo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 483388181EF6959F00609AA2 /* Todo.xcdatamodeld */; };
 		4833881C1EF6959F00609AA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4833881B1EF6959F00609AA2 /* Assets.xcassets */; };
 		4833881F1EF6959F00609AA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4833881D1EF6959F00609AA2 /* LaunchScreen.storyboard */; };
+		483388271EF698BD00609AA2 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483388261EF698BD00609AA2 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4833881B1EF6959F00609AA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4833881E1EF6959F00609AA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		483388201EF6959F00609AA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		483388261EF698BD00609AA2 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				483388111EF6959F00609AA2 /* AppDelegate.swift */,
 				483388131EF6959F00609AA2 /* ViewController.swift */,
+				483388261EF698BD00609AA2 /* Task.swift */,
 				483388151EF6959F00609AA2 /* Main.storyboard */,
 				4833881B1EF6959F00609AA2 /* Assets.xcassets */,
 				4833881D1EF6959F00609AA2 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				483388271EF698BD00609AA2 /* Task.swift in Sources */,
 				483388141EF6959F00609AA2 /* ViewController.swift in Sources */,
 				4833881A1EF6959F00609AA2 /* Todo.xcdatamodeld in Sources */,
 				483388121EF6959F00609AA2 /* AppDelegate.swift in Sources */,
