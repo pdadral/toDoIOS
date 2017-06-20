@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		482CA2471EF7D30800FCDE5D /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482CA2461EF7D30800FCDE5D /* CreateTaskViewController.swift */; };
+		482CA2491EF929AE00FCDE5D /* CompleteTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482CA2481EF929AE00FCDE5D /* CompleteTaskViewController.swift */; };
 		483388121EF6959F00609AA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483388111EF6959F00609AA2 /* AppDelegate.swift */; };
 		483388141EF6959F00609AA2 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483388131EF6959F00609AA2 /* TasksViewController.swift */; };
 		483388171EF6959F00609AA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483388151EF6959F00609AA2 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		482CA2461EF7D30800FCDE5D /* CreateTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		482CA2481EF929AE00FCDE5D /* CompleteTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteTaskViewController.swift; sourceTree = "<group>"; };
 		4833880E1EF6959F00609AA2 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		483388111EF6959F00609AA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		483388131EF6959F00609AA2 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				483388111EF6959F00609AA2 /* AppDelegate.swift */,
 				483388131EF6959F00609AA2 /* TasksViewController.swift */,
+				482CA2481EF929AE00FCDE5D /* CompleteTaskViewController.swift */,
 				482CA2461EF7D30800FCDE5D /* CreateTaskViewController.swift */,
 				483388261EF698BD00609AA2 /* Task.swift */,
 				483388151EF6959F00609AA2 /* Main.storyboard */,
@@ -147,6 +150,7 @@
 			files = (
 				483388271EF698BD00609AA2 /* Task.swift in Sources */,
 				483388141EF6959F00609AA2 /* TasksViewController.swift in Sources */,
+				482CA2491EF929AE00FCDE5D /* CompleteTaskViewController.swift in Sources */,
 				4833881A1EF6959F00609AA2 /* Todo.xcdatamodeld in Sources */,
 				483388121EF6959F00609AA2 /* AppDelegate.swift in Sources */,
 				482CA2471EF7D30800FCDE5D /* CreateTaskViewController.swift in Sources */,
